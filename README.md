@@ -90,7 +90,7 @@ Herramientas que se pueden encontrar a lo largo de los distintos niveles de test
  - [WebdriverIO](https://webdriver.io/)
  - [Puppeteer](https://pptr.dev/) -  web scraping- performace
 
- ![UI testing](../images/ui-tests.png)
+ ![UI testing](./images/ui-tests.png)
 
 # API Testing
 
