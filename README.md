@@ -16,7 +16,7 @@ En estas fases, detectar un error se vuelve cada vez mas costoso. Ahi es donde h
 4. **Revision de codigo:** Equipo o persona encargada de revisar el codigo de las demas personas.
 5. **QA:** Equipos de creacion de pruebas automaticas o manuales.
 
-¿Creamos testing para comprobar que el sofware funciona?
+## ¿Creamos testing para comprobar que el sofware funciona?
 - No Podemos demostrar a ciencia cierta que el sofware funciona.
 - No podemos entregrar un sistema libre de bugs
 
@@ -24,10 +24,9 @@ Lo que si es:
 Los problemas siempre van a exister, lo que hacemos es gestionar el riesgo.
 - Empezamos a cubrir de varios escenarios para validar entradas y salidas.
 
+**"REDUCIR EL RIESGO"**
+
 "Entre más temprano encontremos el error más facil será solucionarlo"
- Fase para gestionar el riesgo en diferentes escenarios por google:
- 1. Static analysis - A medida que escribimos codigo nos da feedback, esta corre del lado del dev, y en el editor.
- 2. Unit tests: No es tan instantaneo
 
 
 # La piramide del testing
@@ -71,7 +70,7 @@ Herramientas que se pueden encontrar a lo largo de los distintos niveles de test
 - integration tests
 - ui tests
 
-![Tools](../images/tools.png)
+![Tools](./images/tools.png)
 
 - [Jest](https://jestjs.io/)
   - Tiene muy poca complejidad
