@@ -131,7 +131,7 @@ describe("A suit is just a function", () => {
 // Test en Jasmine
 describe("A suit is just a function", () => {
    let a
-   test("and so is a spec", () => {
+   it("and so is a spec", () => {
       a = true
       expect(a).toBe(true)
    })

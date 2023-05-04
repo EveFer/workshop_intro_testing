@@ -29,6 +29,9 @@ function generateManyUsers (size) {
   return Array.from({ length: limit }, generateOneUser)
 }
 
+// console.log(generateOneUser())
+// console.log(generateManyUsers(3))
+
 module.exports = {
   generateOneUser,
   generateManyUsers

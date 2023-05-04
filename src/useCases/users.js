@@ -14,16 +14,16 @@ async function create (dataUser) {
     ...dataUser,
     password: hash
   })
-  delete userCreated.password
+  //
   return userCreated
 }
 
 function getAll () {
-  return User.find({})
+  return User.find({}) // return  []
 }
 
 function getById (id) {
-  return User.findById(id)
+  return User.findById(id) // {} , undefined
 }
 
 module.exports = {
